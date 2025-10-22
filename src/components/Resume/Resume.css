@@ -1,0 +1,51 @@
+.resume-container {
+  width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.resume-section {
+  padding: 40px 20px;
+  min-height: 100vh;
+  background-color: #0d1117; /* Match your dark theme */
+}
+
+.download-btn {
+  max-width: 250px;
+  width: 90%;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.pdf-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.pdf-document {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .resume-section {
+    padding: 20px 10px;
+  }
+
+  .pdf-wrapper {
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .download-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
